@@ -35,6 +35,14 @@
 # - Assign the parameter for sauce to the attribute.
 # - Create the toppings attribute, starting off as a list only holding cheese.
 
+class Pizza:
+    def __init__(self, size, sause, toppings):
+        self.size = size
+        self.sause = sause
+        self.toppings = toppings
+
+
+
 
 # You will be creating a Pizzeria class with the following attributes:
 # - orders, the number of orders placed. Should start at 0.
